@@ -1,0 +1,34 @@
+div{
+    position: relative;
+    border: 5px solid black;
+    height: 300px;
+    width: 400px;
+}
+
+p{
+    border: 1px solid red;
+    width: 50%;
+    top: 100px;
+    left: 100px; 
+
+    /* removes default browser styling */
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+}
+
+.p1{
+    position: static;
+}
+
+.p2{
+    position: relative;;
+}
+.p3{
+    position: absolute;
+}
+
+/* .p4{
+    position: fixed;
+} */
