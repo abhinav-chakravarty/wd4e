@@ -1,0 +1,120 @@
+/* Navigation Bar */
+.navbar{
+    border-radius: 0;
+    background-color: #4D77FF;
+}
+
+nav a{
+    color: #F2FA5A !important
+}
+
+.navbar-brand{
+    font-size: 32px !important;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-style: italic;
+}
+
+/* Body */
+body{
+    background-color: #56BBF1;
+    color: #F2FA5A;
+}
+
+
+/* Carousel */
+img{
+    width: 100%;
+    height: 70vh !important;
+}
+
+/* About Me and Motivation */
+.row{
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.column{
+    background-color: #4D77FF;
+    border: 1px solid black;
+    border-radius: 5px;  
+    margin-top: 5px;  
+}
+h2{
+    text-align: center;
+}
+
+#skills{
+    margin-top: 10px;
+}
+
+.heading{
+    background-color: #4D77FF;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#skills ul{
+    display: flex;
+    justify-content: space-evenly
+}
+
+#skills ul li{
+    list-style-type: none;
+    background-color: #4D77FF;
+    padding: 2%;
+    border-radius: 25px;
+}
+
+.proj-img{
+    height: 200px !important;
+}
+
+.proj-col{
+    border: 1px soild black !important;
+    margin-top: 5px;
+}
+figcaption{
+    text-align: center;
+    background-color: #4D77FF;
+    padding: 8px;
+}
+
+table{
+    color: black;
+}
+
+tr:hover{
+    background-color: #F2FA5A !important;
+    opacity: 0.8 !important;
+}
+
+th{
+    background-color: #4D77FF !important;
+}
+
+input{
+    display: inline-block;
+    width: 70% !important;
+    float: left;
+    height: 50px !important;
+}
+
+#contact{
+    margin-top: 10px;
+}
+
+.button{
+    display: inline-block;
+    width: 25%;
+    height: 50px !important;
+    float: right;
+}
+
+footer{
+    margin-top: 30px;
+    text-align: center;
+    background-color: #4D77FF;
+    padding: 10px;
+}

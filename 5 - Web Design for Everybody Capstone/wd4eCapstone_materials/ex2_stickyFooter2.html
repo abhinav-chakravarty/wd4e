@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Footer with Unknown Footer Size</title>
+    <style>
+
+        body{
+            display: flex;
+            min-height: 100vh;
+            flex-direction: column;
+        }
+        
+        #container{
+            flex:1;
+        }
+
+        footer{
+            background-color: #ccff00;
+            text-align: center;
+        }
+    </style>
+    <script>
+        function addMore(){
+            document.getElementById('extra').innerHTML+="<p>More Content</p>";
+        }
+    </script>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Sticky Footer</h1>
+        </header>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore commodi, velit placeat similique vel ipsam a cupiditate reprehenderit corrupti molestias officiis, voluptate odio, praesentium culpa natus? Dolor corporis alias laudantium.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus repellat ipsum quibusdam error cupiditate soluta consequuntur dolor! Dolores quos, eum odio minima delectus fugiat hic, nemo quibusdam ut maiores nam.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit unde adipisci impedit ullam error excepturi sint quod eaque earum aut. Numquam ab provident maxime reiciendis assumenda ullam repellat inventore perspiciatis!</p>
+        <button onclick="addMore()">Add More Content</button>
+        <div id="extra"></div>
+    </div>
+    <footer>
+        Here is the sticky footer.
+    </footer>
+</body>
+</html>
