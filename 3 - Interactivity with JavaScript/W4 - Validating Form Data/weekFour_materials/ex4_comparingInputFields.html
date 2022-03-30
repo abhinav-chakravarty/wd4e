@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Comparing Two Input Values</title>
+    <style>
+        input:focus{
+            background-color: #b3b3b3;
+        }
+        label{
+            display: block;
+            font-size: 150%;
+        }
+    </style>
+    <script src="./ex4_comparingInputFields.js"></script>
+</head>
+<body>
+    <form>
+        <label>Preferred email address: 
+            <input type="email" name="email" id="email_addr" value="me@me.com" required>
+        </label>
+        <label>Repeat email address: 
+            <input type="email" name="email" id="email_repeat" required onchange="check()">
+        </label>
+        <input type="submit" value="Confirm Emails!" onclick="return check();" >
+    </form>
+    
+</body>
+</html>

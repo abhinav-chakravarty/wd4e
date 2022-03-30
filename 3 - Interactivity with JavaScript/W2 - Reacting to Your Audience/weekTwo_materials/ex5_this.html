@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>"this"</title>
+    <style>
+        img{
+            height: 200px;
+        }
+    </style>
+    <script src="./ex5_this.js"></script>
+</head>
+<body>
+    <img src="https://images.pexels.com/photos/9800863/pexels-photo-9800863.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Alt Text 1" onclick="console.log(this.alt)" />
+    <div onclick="console.log(this.innerHTML)">Hi there, checking out a div</div>
+
+    <hr>
+
+    <img src="https://images.pexels.com/photos/10154784/pexels-photo-10154784.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Alt Text 2" id="ID-1" onclick="disp(this)" />
+    <div id="ID-2" onclick="disp(this)">Hi there, checking out a div</div>
+
+    
+</body>
+</html>

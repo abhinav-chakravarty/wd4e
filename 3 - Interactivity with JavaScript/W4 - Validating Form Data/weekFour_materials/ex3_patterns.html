@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Patterns</title>
+    <style>
+        input{
+            position: absolute;
+            left: 200px;
+            width: 75px;
+        }
+        input[type=submit]{
+            top: 75px;
+            left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        Zip code with pattern: ,<input type="text" name="zip_codeP" pattern="[0-9]{5}" required><br>
+        Zip code with number: ,<input type="number" name="zip_codeP" min="00000" max="99999" required>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
